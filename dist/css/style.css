@@ -132,3 +132,7 @@ footer {
   padding: 0px 15px;
   font-size: 0.8rem;
 }
+.end_footer > div h6 {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
