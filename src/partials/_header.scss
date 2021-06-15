@@ -29,8 +29,51 @@
 // JUMBOTRON
 .jumbo {
     width: 100vw;
-    height: 450px;
+    height: 550px;
     background-image: url('../../PREVIEW/img/jumbo.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+
+    & > div {
+        @include d_flex_center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    & hr {
+        width: 550px;
+        margin: 15px 0px;
+        border: 2px solid white;
+    }
+
+    & h1 {
+        font-weight: 300;
+        font-size: 3.6rem;
+        line-height: 6.5rem;
+    }
+    & > div > h1 > span {
+        font-weight: 800;
+        font-size: 5.5rem;
+    }
+
+    & > div > h3 {
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+    & > div > h3 > span {
+        margin: 0px 25px;
+    }
+
+    & button {
+        margin-top: 40px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        border-radius: 4px;
+        font-size: 0.9rem;
+    }
 }

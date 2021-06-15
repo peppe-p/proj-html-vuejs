@@ -8,8 +8,11 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
     color: $color_title;
+}
+
+h1, h2 {
+    letter-spacing: 2px;
 }
 
 .container {
@@ -21,8 +24,9 @@ body {
 .btn {
     color: white;
     background-color: $primary;
-    padding: 12px 20px;
+    padding: 18px 25px;
     border: none;
+    text-transform: uppercase;
 }
 
 // CLASSES
