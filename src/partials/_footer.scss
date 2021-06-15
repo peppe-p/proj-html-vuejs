@@ -8,6 +8,22 @@ footer {
 }
 
 .end_footer {
-    height: 80px;
+    padding: 30px 0px;
+    color: $color_text;
     background-color: $color_black;
+
+    & > div {
+        @include d_flex;
+        justify-content: space-between;
+
+        & ul {
+            @include d_flex;
+
+            & li {
+                list-style: none;
+                padding: 0px 15px;
+                font-size: 0.8rem;
+            }
+        }
+    }
 }
