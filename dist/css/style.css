@@ -56,7 +56,8 @@ h1, h2 {
 
 .jumbo {
   width: 100vw;
-  height: 550px;
+  height: auto;
+  padding: 100px 0px;
   background-image: url("../../PREVIEW/img/jumbo.jpg");
   background-position: center;
   background-repeat: no-repeat;
