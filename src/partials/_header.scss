@@ -1,4 +1,27 @@
 // NAVBAR TOP MENU
+#top_nav {
+    @include d_flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
 
+#logo {
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+#main_menu {
+    @include d_flex;
+
+    & li {
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        padding: 0 10px;
+        font-weight: 700;
+        color: $color_text;
+    }
+}
 
 // JUMBOTRON
