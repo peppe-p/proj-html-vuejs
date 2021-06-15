@@ -1,0 +1,153 @@
+body {
+  background-color: white;
+  color: #58402c;
+  font-family: "Roboto", sans-serif;
+}
+
+hr {
+  border: 1px solid #58402c;
+}
+
+a {
+  text-decoration: none;
+  color: #58402c;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 5rem;
+}
+
+h2 {
+  font-size: 3.3rem;
+  font-weight: 500;
+  line-height: 5rem;
+}
+
+.container {
+  width: 1200px;
+  min-width: 800px;
+  margin: auto;
+}
+
+.btn {
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: #2c4792;
+  border: 0px solid;
+  padding: 8px;
+}
+.btn * {
+  margin: 0px 5px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #2c4792;
+  color: #2c4792;
+}
+
+.btn_large {
+  padding: 8px 5px;
+  border: 1px solid #2c4792;
+  color: #2c4792;
+  background-color: white;
+}
+.btn_large * {
+  margin: 0px 5px;
+}
+.btn_large:hover {
+  background-color: #2c4792;
+  color: white;
+}
+
+.icona {
+  height: 20px;
+}
+
+header {
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+#main_nav {
+  display: flex;
+  display: -ms-flexbox;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+}
+#main_nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 10px;
+}
+#main_nav li:hover {
+  cursor: pointer;
+}
+
+.jumbo {
+  width: 100%;
+  display: flex;
+  display: -ms-flexbox;
+}
+.jumbo > div {
+  width: 50%;
+}
+.jumbo p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.j_img {
+  width: 100%;
+}
+
+.btn_zone_jumbo {
+  margin-top: 60px;
+}
+.btn_zone_jumbo span {
+  margin: 0px 10px;
+  font-weight: 500;
+}
+.btn_zone_jumbo div:first-child {
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+}
+.btn_zone_jumbo div:last-child {
+  padding: 20px 0px;
+}
+
+main {
+  background-color: #ffe7d2;
+  padding-top: 50px;
+}
+main hr {
+  margin: 200px 0;
+}
+main h2 {
+  margin: 100px 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.rabbit_1, .rabbit_2 {
+  text-align: center;
+}
+
+.col3 {
+  display: flex;
+  display: -ms-flexbox;
+  justify-content: space-between;
+  margin: 100px 0px;
+}
+.col3 img {
+  height: 150px;
+}
