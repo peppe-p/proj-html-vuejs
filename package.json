@@ -24,8 +24,11 @@
   "devDependencies": {
     "laravel-mix": "^6.0.19",
     "postcss": "^8.1.14",
-    "resolve-url-loader": "^3.1.2",
+    "resolve-url-loader": "^4.0.0",
     "sass": "^1.35.0",
     "sass-loader": "^11.0.1"
+  },
+  "dependencies": {
+    "ignore-loader": "^0.1.2"
   }
 }

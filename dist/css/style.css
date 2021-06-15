@@ -17,6 +17,13 @@ body {
   margin: auto;
 }
 
+.btn {
+  color: white;
+  background-color: #f72b0c;
+  padding: 12px 20px;
+  border: none;
+}
+
 #top_nav {
   display: flex;
   display: -ms-flexbox;
@@ -41,4 +48,10 @@ body {
   padding: 0 10px;
   font-weight: 700;
   color: #868686;
+}
+
+.jumbo {
+  width: 100vw;
+  height: 450px;
+  background-image: url("../../PREVIEW/img/jumbo.jpg");
 }
