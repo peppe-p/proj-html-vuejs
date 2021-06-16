@@ -1,1 +1,21 @@
+// QUESTION DIV
+.questions {
+    padding: 50px 0px;
 
+    & > div {
+        @include d_flex;
+
+        & > div {
+            @include d_flex;
+
+            & h3 {
+                text-transform: uppercase;
+            }
+
+            & a {
+                color: $primary;
+                font-style: italic;
+            }
+        }
+    }
+}
