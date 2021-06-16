@@ -8,6 +8,7 @@
 body {
   font-family: "Raleway", sans-serif;
   color: #403d3b;
+  letter-spacing: 1px;
 }
 
 h1, h2 {
@@ -130,8 +131,52 @@ footer {
 }
 
 .pre_footer {
-  height: 300px;
+  padding: 50px 0px;
   background-color: #212121;
+}
+.pre_footer > div {
+  display: flex;
+  display: -ms-flexbox;
+}
+.pre_footer > div > div {
+  width: 100%;
+  margin: 0px 20px;
+}
+.pre_footer > div > div h3 {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+.pre_footer > div > div p {
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  margin: 20px 0;
+}
+.pre_footer > div > div li {
+  list-style: none;
+}
+.pre_footer .f_aboutus ul {
+  display: flex;
+  display: -ms-flexbox;
+  justify-content: space-between;
+}
+.pre_footer .f_aboutus ul li i {
+  font-size: 1.7rem;
+}
+.pre_footer .f_seat button {
+  box-shadow: 0px 5px 0px 0px #a12f1e;
+}
+.pre_footer .f_gallery ul {
+  display: flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pre_footer .f_gallery li {
+  margin-bottom: 10px;
+}
+.pre_footer .f_gallery img {
+  width: 60px;
 }
 
 .end_footer {

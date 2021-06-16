@@ -3,8 +3,71 @@ footer {
 }
 
 .pre_footer{
-    height: 300px;
+    padding: 50px 0px;
     background-color: $color_dark;
+    
+    // div container
+    & > div {
+        @include d_flex;
+
+        // 4 col footer
+        & > div {
+            width: 100%;
+            margin: 0px 20px;
+
+            & h3 {
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                letter-spacing: 1px;
+            }
+
+            & p {
+                font-size: 0.7rem;
+                line-height: 1.2rem;
+                margin: 20px 0;
+            }
+
+            & li {
+                list-style: none;
+            }
+        }
+    }
+
+
+    & .f_aboutus {
+
+        & ul {
+            @include d_flex;
+            justify-content: space-between;
+
+            & li i {
+                font-size: 1.7rem;
+            }
+        }
+    }
+
+    & .f_seat {
+
+        & button {
+            box-shadow: 0px 5px 0px 0px rgb(161, 47, 30);
+        }
+    }
+
+    & .f_gallery {
+        & ul {
+            @include d_flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        & li {
+            margin-bottom: 10px;
+        }
+
+        & img {
+            width: 60px;
+        }
+    }
 }
 
 .end_footer {
