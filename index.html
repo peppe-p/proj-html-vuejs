@@ -158,14 +158,25 @@
 
                     <div class="lineup">
                         <div class="tab">
-                            <button class="btn"><span>DAY 1</span><br>23 May 2016</button>
-                            <button class="btn"><span>DAY 2</span><br>23 May 2016</button>
-                            <button class="btn"><span>DAY 3</span><br>23 May 2016</button>
-                            <button class="btn"><span>DAY 4</span><br>23 May 2016</button>
-                            <button class="btn"><span>DAY 5</span><br>23 May 2016</button>
+                            <button @click="setTab(1)" class="btn" :class="tab_on == 1 ? 'tab_on' : ''">
+                                <span>DAY 1</span><br>23 May 2016
+                            </button>
+                            <button @click="setTab(2)" class="btn" :class="tab_on == 2 ? 'tab_on' : ''">
+                                <span>DAY 2</span><br>23 May 2016
+                            </button>
+                            <button @click="setTab(3)" class="btn" :class="tab_on == 3 ? 'tab_on' : ''">
+                                <span>DAY 3</span><br>23 May 2016
+                            </button>
+                            <button @click="setTab(4)" class="btn" :class="tab_on == 4 ? 'tab_on' : ''">
+                                <span>DAY 4</span><br>23 May 2016
+                            </button>
+                            <button @click="setTab(5)" class="btn" :class="tab_on == 5 ? 'tab_on' : ''">
+                                <span>DAY 5</span><br>23 May 2016
+                            </button>
                             <button class="btn"></button>
                         </div>
-                        <div class="content">
+
+                        <div v-show="tab_on == 1" class="content">
                             <div class="details">
                                 <div class="time">
                                     <i class="far fa-clock"></i>
@@ -188,6 +199,114 @@
                                     aspernatur dolorum numquam fugiat itaque repudiandae asperiores!
                                 </p>
                                 <img src="./PREVIEW/img/speaker-8-150x150.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div v-show="tab_on == 2" class="content">
+                            <div class="details">
+                                <div class="time">
+                                    <i class="far fa-clock"></i>
+                                    <h6>09:00 - 11:30</h6>
+                                </div>
+                                <div class="position">
+                                    <i class="fas fa-location-arrow"></i>
+                                    <h6>hotel santiago</h6>
+                                </div>
+                                <div class="name">
+                                    <i class="fas fa-user"></i>
+                                    <h6>jhonny bravo</h6>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <h2>advanced cours intensive</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit veritatis unde
+                                    laboriosam tempore sint commodi magnam, quas eos dignissimos deserunt, placeat,
+                                    laborum ea rerum accusamus fugiat excepturi illo! Dolorem, libero!
+                                </p>
+                                <img src="./PREVIEW/img/speaker-7-150x150.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div v-show="tab_on == 3" class="content">
+                            <div class="details">
+                                <div class="time">
+                                    <i class="far fa-clock"></i>
+                                    <h6>08:00 - 10:30</h6>
+                                </div>
+                                <div class="position">
+                                    <i class="fas fa-location-arrow"></i>
+                                    <h6>room hall</h6>
+                                </div>
+                                <div class="name">
+                                    <i class="fas fa-user"></i>
+                                    <h6>alonso lawrence</h6>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <h2>listening and more listening</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste possimus placeat,
+                                    minus fuga minima vel sit totam delectus. Suscipit quaerat aliquid magni impedit
+                                    aspernatur dolorum numquam fugiat itaque repudiandae asperiores!
+                                </p>
+                                <img src="./PREVIEW/img/speaker-6-150x150.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div v-show="tab_on == 4" class="content">
+                            <div class="details">
+                                <div class="time">
+                                    <i class="far fa-clock"></i>
+                                    <h6>10:00 - 12:30</h6>
+                                </div>
+                                <div class="position">
+                                    <i class="fas fa-location-arrow"></i>
+                                    <h6>piazza grande</h6>
+                                </div>
+                                <div class="name">
+                                    <i class="fas fa-user"></i>
+                                    <h6>rossella grande</h6>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <h2>plaza manifestation</h2>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id optio maxime labore
+                                    possimus necessitatibus voluptatibus magni unde nisi? Quod dicta consectetur impedit
+                                    excepturi minus eius autem velit est inventore. Iste sunt accusamus eaque quisquam!
+                                    Cupiditate et fugit eaque at quia!
+                                </p>
+                                <img src="./PREVIEW/img/speaker-5-150x150.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div v-show="tab_on == 5" class="content">
+                            <div class="details">
+                                <div class="time">
+                                    <i class="far fa-clock"></i>
+                                    <h6>07:00 - 08:00</h6>
+                                </div>
+                                <div class="position">
+                                    <i class="fas fa-location-arrow"></i>
+                                    <h6>football stadium</h6>
+                                </div>
+                                <div class="name">
+                                    <i class="fas fa-user"></i>
+                                    <h6>antony troy</h6>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <h2>we love football and more</h2>
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad deleniti, voluptas
+                                    veritatis ullam quia voluptatibus porro delectus inventore ipsam fuga omnis natus
+                                    expedita illum quae officiis veniam et cum quasi similique esse perferendis sequi
+                                    architecto tempora sapiente? Magni maxime tenetur illo, debitis voluptates iusto.
+                                    Ipsam velit adipisci harum aliquam autem officia, natus reprehenderit laborum, optio
+                                    assumenda sed esse ut aut.
+                                </p>
+                                <img src="./PREVIEW/img/speaker-4-150x150.jpg" alt="">
                             </div>
                         </div>
                     </div>
