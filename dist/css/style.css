@@ -398,6 +398,9 @@ p {
 .lineup .description {
   width: 75%;
 }
+.lineup .description img {
+  width: 50px;
+}
 
 footer {
   color: white;
