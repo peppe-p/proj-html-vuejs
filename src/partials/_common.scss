@@ -27,6 +27,9 @@ h1, h2 {
     padding: 18px 25px;
     border: none;
     text-transform: uppercase;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 // CLASSES

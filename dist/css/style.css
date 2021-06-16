@@ -27,6 +27,9 @@ h1, h2 {
   border: none;
   text-transform: uppercase;
 }
+.btn:hover {
+  cursor: pointer;
+}
 
 .selected {
   color: #f72b0c !important;
@@ -44,6 +47,9 @@ h1, h2 {
 #logo {
   font-size: 1.8rem;
   font-weight: 900;
+}
+#logo:hover {
+  cursor: pointer;
 }
 
 #main_menu {
