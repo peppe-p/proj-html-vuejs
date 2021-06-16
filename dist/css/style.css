@@ -255,6 +255,68 @@ p {
   letter-spacing: 2px;
 }
 
+.speakers {
+  background-color: #f3f3f3;
+  padding: 50px 0;
+}
+.speakers > div {
+  display: flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  align-items: center;
+}
+.speakers > div > div {
+  display: flex;
+  display: -ms-flexbox;
+  width: 100%;
+  margin: 20px 0;
+}
+.speakers > div > div:first-child {
+  display: flex;
+  display: -ms-flexbox;
+  justify-content: space-between;
+}
+.speakers > div > div:first-child h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 2rem;
+}
+.speakers > div > div:first-child button {
+  font-size: 0.5rem;
+  padding: 1px;
+  width: 35px;
+  height: 35px;
+  border-radius: 3px;
+}
+
+.speaker {
+  display: flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  align-items: center;
+}
+.speaker img {
+  border-radius: 5px;
+  width: 280px;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.speaker h3 {
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+  margin: 15px 0;
+}
+.speaker h5 {
+  font-style: italic;
+  color: #868686;
+  letter-spacing: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.7rem;
+}
+
 footer {
   color: white;
 }
