@@ -15,6 +15,11 @@ h1, h2 {
   letter-spacing: 2px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .container {
   width: 1000px;
   max-width: 1200px;
@@ -163,6 +168,24 @@ footer {
 .pre_footer .f_aboutus ul li i {
   font-size: 1.7rem;
 }
+.pre_footer .f_news {
+  font-weight: 100;
+}
+.pre_footer .f_news li {
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+.pre_footer .f_news i {
+  font-size: 0.5rem;
+  margin-right: 10px;
+}
+.pre_footer .f_news a:hover {
+  text-decoration: underline;
+}
 .pre_footer .f_seat button {
   box-shadow: 0px 5px 0px 0px #a12f1e;
 }
@@ -171,6 +194,7 @@ footer {
   display: -ms-flexbox;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 20px 0;
 }
 .pre_footer .f_gallery li {
   margin-bottom: 10px;

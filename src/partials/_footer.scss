@@ -46,6 +46,29 @@ footer {
         }
     }
 
+    & .f_news {
+        font-weight: 100;
+
+        & li {
+            @include d_flex;
+            align-items: center;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            margin: 15px 0;
+        }
+
+        & i {
+            font-size: 0.5rem;
+            margin-right: 10px;
+        }
+
+        & a:hover {
+            text-decoration: underline;
+        }
+    }
+
+
+
     & .f_seat {
 
         & button {
@@ -58,6 +81,7 @@ footer {
             @include d_flex;
             flex-wrap: wrap;
             justify-content: space-between;
+            margin: 20px 0;
         }
 
         & li {
