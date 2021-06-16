@@ -317,6 +317,15 @@ p {
   font-size: 0.7rem;
 }
 
+.program > div div {
+  width: 100%;
+}
+.program > div > div:first-child {
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+}
+
 footer {
   color: white;
 }

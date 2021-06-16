@@ -33,7 +33,7 @@
 }
 
 
-// COUNTDOWN DIV
+// COUNTDOWN DIV ////////////
 .countdown {
     padding: 80px 0px;
     background-image: url('../../PREVIEW/img/coutdown-bg1.jpg');
@@ -129,7 +129,7 @@
 }
 
 
-// SPEAKER DIV
+// SPEAKER DIV //////////////
 .speakers {
     background-color: #f3f3f3;
     padding: 50px 0;
@@ -166,7 +166,6 @@
         }
     }
 }
-
 .speaker {
     @include d_flex;
     flex-direction: column;
@@ -192,5 +191,22 @@
         letter-spacing: 0;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 0.7rem;
+    }
+}
+
+
+// PROGRAM DIV //////////////
+.program {
+    // container
+    & > div {
+
+        & div {
+            width: 100%;
+        }
+        
+        & > div:first-child {
+            @include d_flex;
+            align-items: center;
+        }
     }
 }
