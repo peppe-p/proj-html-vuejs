@@ -28,6 +28,11 @@ h1, h2 {
   text-transform: uppercase;
 }
 
+.selected {
+  color: #f72b0c !important;
+  border-bottom: 3px solid #f72b0c;
+}
+
 #top_nav {
   display: flex;
   display: -ms-flexbox;
@@ -44,14 +49,24 @@ h1, h2 {
 #main_menu {
   display: flex;
   display: -ms-flexbox;
+  align-items: center;
 }
 #main_menu li {
   list-style: none;
   text-transform: uppercase;
-  font-size: 0.7rem;
-  padding: 0 10px;
+  font-size: 0.6rem;
+  padding: 10px 0px;
+  margin: 0px 15px;
   font-weight: 700;
   color: #868686;
+  letter-spacing: 2px;
+}
+#main_menu li:hover {
+  cursor: pointer;
+}
+#main_menu hr {
+  height: 12px;
+  border: 1px solid #868686;
 }
 
 .jumbo {
