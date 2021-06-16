@@ -8,6 +8,14 @@
         & > div {
             @include d_flex;
 
+            & > * {
+            margin: 0px 10px
+            }
+
+            & i {
+                color: $color_text;
+            }
+
             & h3 {
                 text-transform: uppercase;
             }
@@ -15,6 +23,10 @@
             & a {
                 color: $primary;
                 font-style: italic;
+
+                &:hover{
+                    text-decoration: underline;
+                }
             }
         }
     }

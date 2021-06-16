@@ -148,12 +148,21 @@ p {
   display: flex;
   display: -ms-flexbox;
 }
+.questions > div > div > * {
+  margin: 0px 10px;
+}
+.questions > div > div i {
+  color: #868686;
+}
 .questions > div > div h3 {
   text-transform: uppercase;
 }
 .questions > div > div a {
   color: #f72b0c;
   font-style: italic;
+}
+.questions > div > div a:hover {
+  text-decoration: underline;
 }
 
 footer {
