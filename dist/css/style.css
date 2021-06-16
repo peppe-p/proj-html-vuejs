@@ -317,6 +317,9 @@ p {
   font-size: 0.7rem;
 }
 
+.program {
+  padding: 50px;
+}
 .program > div div {
   width: 100%;
 }
@@ -324,6 +327,76 @@ p {
   display: flex;
   display: -ms-flexbox;
   align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.program > div > div:first-child > div {
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+}
+.program > div > div:first-child h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 2rem;
+}
+.program > div > div:first-child p {
+  width: 500px;
+  margin: 0 50px;
+}
+.program > div > div:first-child a {
+  color: #f72b0c;
+  justify-self: flex-end;
+  width: 220px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.lineup .tab {
+  display: flex;
+  display: -ms-flexbox;
+}
+.lineup .tab button {
+  width: 100%;
+  text-align: left;
+  font-size: 0.7rem;
+  border-right: 1px solid #c72b11;
+}
+.lineup .tab button:hover {
+  background-color: #c72b11;
+}
+.lineup .tab span {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.lineup .content {
+  display: flex;
+  display: -ms-flexbox;
+  background-color: #f7f7f7;
+  padding: 50px;
+}
+.lineup .details {
+  width: 25%;
+}
+.lineup .details > div {
+  display: flex;
+  display: -ms-flexbox;
+  color: #868686;
+  align-items: center;
+  margin: 20px 0;
+}
+.lineup .details > div h6 {
+  font-weight: 500;
+}
+.lineup .details > div i {
+  font-size: 0.8rem;
+  margin-right: 15px;
+}
+.lineup .details .name h6 {
+  color: #f72b0c;
+}
+.lineup .description {
+  width: 75%;
 }
 
 footer {

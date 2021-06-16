@@ -197,16 +197,100 @@
 
 // PROGRAM DIV //////////////
 .program {
+    padding: 50px;
     // container
     & > div {
 
         & div {
             width: 100%;
         }
-        
+
         & > div:first-child {
             @include d_flex;
             align-items: center;
+            justify-content: space-around;
+            margin-bottom: 50px;
+
+            & > div {
+                @include d_flex;
+                align-items: center;
+            }
+
+            & h2 {
+                text-transform: uppercase;
+                font-weight: 800;
+                font-size: 2rem;
+            }
+
+            & p {
+                width: 500px;
+                margin: 0 50px;
+            }
+            & a {
+                color: $primary;
+                justify-self: flex-end;
+                width: 220px;
+                font-style: italic;
+                font-family: 'Times New Roman', Times, serif;
+            }
         }
+    }
+}
+
+.lineup {
+
+    & .tab {
+        @include d_flex;
+
+        & button {
+            width: 100%;
+            text-align: left;
+            font-size: 0.7rem;
+            border-right: 1px solid $primary_dark;
+
+            &:hover {
+                background-color: $primary_dark;
+            }
+        }
+
+        & span {
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+    }
+
+    & .content {
+        @include d_flex;
+        background-color: #f7f7f7;
+        padding: 50px;
+    }
+
+    & .details {
+        width: 25%;
+
+        & > div {
+            @include d_flex;
+            color: $color_text;
+            align-items: center;
+            margin: 20px 0;
+
+            & h6 {
+                font-weight: 500;
+                
+            }
+
+            & i {
+                font-size: 0.8rem;
+                margin-right: 15px;
+            }
+        }
+
+        & .name h6 {
+            color: $primary;
+        }
+    }
+
+    & .description {
+        width: 75%;
     }
 }
