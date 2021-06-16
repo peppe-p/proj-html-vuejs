@@ -31,3 +31,18 @@
         }
     }
 }
+
+
+// COUNTDOWN DIV
+.countdown {
+    padding: 80px 0px;
+    background-image: url('../../PREVIEW/img/coutdown-bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    & > div {
+        @include d_flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
