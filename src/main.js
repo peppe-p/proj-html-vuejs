@@ -1,3 +1,7 @@
+import Vue from 'vue';
+import VueCountdown from '@chenfengyuan/vue-countdown';
+Vue.component(VueCountdown.name, VueCountdown);
+
 var app = new Vue({
     el: '#root',
     data: {
@@ -28,9 +32,11 @@ var app = new Vue({
             this.selectedPage = x
         },
 
+
         setTab: function (x) {
             this.tab_on = x
         },
+
 
         pagePre: function () {
             this.speaker_page - 1;
@@ -48,7 +54,8 @@ var app = new Vue({
             } else {
                 this.speaker_page++;
             }
-        }
+        },
+
     }
 })
 

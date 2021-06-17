@@ -187,20 +187,20 @@ p {
   margin: 20px 0;
 }
 
-.timing {
+.timing > * {
   display: flex;
   display: -ms-flexbox;
 }
-.timing > div:nth-child(1) {
+.timing > * > div:nth-child(1) {
   opacity: 0.9;
 }
-.timing > div:nth-child(2) {
+.timing > * > div:nth-child(2) {
   opacity: 0.8;
 }
-.timing > div:nth-child(3) {
+.timing > * > div:nth-child(3) {
   opacity: 0.75;
 }
-.timing > div:nth-child(4) {
+.timing > * > div:nth-child(4) {
   opacity: 0.7;
 }
 
