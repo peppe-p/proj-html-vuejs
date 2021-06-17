@@ -22,7 +22,8 @@
                 <nav id="top_nav">
                     <h2 id="logo">THE KEYNOTE</h2>
                     <ul id="main_menu">
-                        <li v-for="(el, i) in nav_menu" :class="i == selectedPage ? 'selected' : ''" @click="prova(i)">
+                        <li v-for="(el, i) in nav_menu" :class="i == selectedPage ? 'selected' : ''"
+                            @click="menuIndex(i)">
                             {{el}}</li>
                         <hr>
                         <li><i class="fas fa-search"></i></li>
