@@ -316,6 +316,7 @@ p {
   font-size: 0.9rem;
   letter-spacing: 3px;
   margin: 15px 0;
+  text-transform: uppercase;
 }
 .speaker h5 {
   font-style: italic;
@@ -395,6 +396,7 @@ p {
 }
 .lineup .details > div h6 {
   font-weight: 500;
+  text-transform: uppercase;
 }
 .lineup .details > div i {
   font-size: 0.8rem;
@@ -408,6 +410,9 @@ p {
 }
 .lineup .description img {
   width: 50px;
+}
+.lineup .description h2 {
+  text-transform: uppercase;
 }
 
 footer {
