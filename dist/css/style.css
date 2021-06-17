@@ -508,6 +508,40 @@ p {
 .ticket > div .columns {
   margin: 20px 0;
 }
+.ticket > div .columns .card {
+  width: 100%;
+  display: flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  align-items: center;
+}
+.ticket > div .columns .card > * {
+  width: 100%;
+  padding: 20px;
+}
+.ticket > div .columns .card .title {
+  background-color: #e9e9e9;
+  text-align: center;
+}
+.ticket > div .columns .card .title h3 {
+  color: #403d3b;
+  text-transform: uppercase;
+}
+.ticket > div .columns .card .title h4 {
+  color: #f72b0c;
+  text-transform: uppercase;
+}
+.ticket > div .columns .card .body {
+  background-color: white;
+  color: #868686;
+  text-align: center;
+}
+.ticket > div .columns .card .body li {
+  list-style: none;
+  margin: 20px 10px;
+  font-style: italic;
+  text-transform: capitalize;
+}
 
 .sponsor {
   padding: 50px;
