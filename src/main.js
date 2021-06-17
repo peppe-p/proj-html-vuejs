@@ -10,15 +10,15 @@ var app = new Vue({
             [
                 [
                     { name: "Patrick Spencer", role: "S&P Analyzer", imgURL: "./PREVIEW/img/speaker-6.jpg" },
-                    { name: "Patrick Spencer", role: "S&P Analyzer", imgURL: "./PREVIEW/img/speaker-6.jpg" },
-                    { name: "Patrick Spencer", role: "S&P Analyzer", imgURL: "./PREVIEW/img/speaker-6.jpg" },
-                    { name: "Patrick Spencer", role: "S&P Analyzer", imgURL: "./PREVIEW/img/speaker-6.jpg" },
+                    { name: "Janet Jones", role: "Newyork Post's GM", imgURL: "./PREVIEW/img/speaker-5.jpg" },
+                    { name: "Michael Dover", role: "Starbuck's CEO", imgURL: "./PREVIEW/img/speaker-4.jpg" },
+                    { name: "Angelina Holy", role: "Maxii's Manager", imgURL: "./PREVIEW/img/speaker-3.jpg" },
                 ],
                 [
-                    { name: "Patrick Spencer", role: "S&P Analyzer", imgURL: "./PREVIEW/img/speaker-5.jpg" },
-                    { name: "Patrick Spencer", role: "S&P Analyzer", imgURL: "./PREVIEW/img/speaker-5.jpg" },
-                    { name: "Patrick Spencer", role: "S&P Analyzer", imgURL: "./PREVIEW/img/speaker-5.jpg" },
-                    { name: "Patrick Spencer", role: "S&P Analyzer", imgURL: "./PREVIEW/img/speaker-5.jpg" },
+                    { name: "David Polline", role: "Dev COP", imgURL: "./PREVIEW/img/speaker-7.jpg" },
+                    { name: "Patricia Bella", role: "S&P Analyzer", imgURL: "./PREVIEW/img/speaker-8.jpg" },
+                    { name: "Albert Badoski", role: "S&P Analyzer", imgURL: "./PREVIEW/img/speaker-2.jpg" },
+                    { name: "Alex Kennedy", role: "S&P Analyzer", imgURL: "./PREVIEW/img/speaker-1.jpg" },
                 ],
             ],
     },
