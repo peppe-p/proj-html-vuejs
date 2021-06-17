@@ -128,16 +128,16 @@
                     <div>
                         <h2>speakers</h2>
                         <div class="buttons">
-                            <button class="btn"><i class="fas fa-chevron-left"></i></button>
-                            <button class="btn"><i class="fas fa-chevron-right"></i></button>
+                            <button @click="pagePre()" class="btn"><i class="fas fa-chevron-left"></i></button>
+                            <button @click="pageAfter()" class="btn"><i class="fas fa-chevron-right"></i></button>
                         </div>
                     </div>
 
-                    <div class="speakers_list">
-                        <div class="speaker">
-                            <img src="./PREVIEW/img/speaker-2-150x150.jpg" alt="" class="profile_photo">
-                            <h3>NOME SPEAKER</h3>
-                            <h5>S&P Analyzer</h5>
+                    <div v-for="(page, i) in speakers" class="speakers_list" v-show="speaker_page == i">
+                        <div v-for="speaker in page" class="speaker">
+                            <img :src="speaker.imgURL" alt="" class="profile_photo">
+                            <h3>{{speaker.name}}</h3>
+                            <h5>{{speaker.role}}</h5>
                         </div>
                     </div>
                 </div>

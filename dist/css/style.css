@@ -98,6 +98,7 @@ p {
   background-image: url("../../PREVIEW/img/jumbo.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   text-transform: uppercase;
   text-align: center;
@@ -174,6 +175,7 @@ p {
   background-image: url("../../PREVIEW/img/coutdown-bg1.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .countdown > div {
   display: flex;
@@ -298,11 +300,13 @@ p {
   display: -ms-flexbox;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  padding: 0 20px;
 }
 .speaker img {
   border-radius: 5px;
-  width: 280px;
-  height: 180px;
+  width: 100%;
+  height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
