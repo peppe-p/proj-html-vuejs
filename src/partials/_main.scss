@@ -309,7 +309,43 @@
 
 
 // LOCATION DIV /////////////
+.location {
+    background-image: url("../images/location-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50px;
 
+    & > div {
+        @include d_flex;
+        flex-direction: column;
+        align-items: center;
+
+        & .address {
+            @include d_flex;
+            flex-direction: column;
+            align-items: center;
+
+            & > div {
+                @include d_flex;
+            }
+        }
+
+        & .contact {
+            @include d_flex;
+            flex-direction: column;
+
+            & hr {
+                width: 100%
+            }
+
+            & div {
+                @include d_flex;
+            }
+        }
+    }
+}
 
 
 // SPONSOR DIV //////////////
